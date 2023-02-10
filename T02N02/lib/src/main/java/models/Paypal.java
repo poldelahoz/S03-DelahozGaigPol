@@ -1,11 +1,11 @@
-package T02N02;
+package models;
 
-public class BankDebit extends PaymentMethod{
-
+public class Paypal extends PaymentMethod{
+	
 	@Override
 	void processPayment() {
 		try {
-			System.out.println("Processant pagament mitjançant deute en compte bancari.");
+			System.out.print("Processant pagament mitjançant paypal.");
 			for (int i = 0; i < 6; i++) {
 				Thread.sleep(500);
 				System.out.print(".");

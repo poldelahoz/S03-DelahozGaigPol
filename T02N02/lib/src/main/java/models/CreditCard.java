@@ -1,11 +1,11 @@
-package T02N02;
+package models;
 
-public class Paypal extends PaymentMethod{
-	
+public class CreditCard extends PaymentMethod{
+
 	@Override
-	void processPayment() {
+	public void processPayment() {
 		try {
-			System.out.print("Processant pagament mitjançant paypal.");
+			System.out.print("Processant pagament mitjançant tarjeta de crèdit.");
 			for (int i = 0; i < 6; i++) {
 				Thread.sleep(500);
 				System.out.print(".");

@@ -1,4 +1,4 @@
-package T02N02;
+package utils;
 
 public interface PaymentGateway {
 	void execute();

@@ -1,6 +1,8 @@
-package T02N02;
+package models;
 
 import java.util.Optional;
+
+import utils.PaymentGateway;
 
 public abstract class PaymentMethod {
 	

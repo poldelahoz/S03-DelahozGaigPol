@@ -1,4 +1,4 @@
-package T02N02;
+package utils;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

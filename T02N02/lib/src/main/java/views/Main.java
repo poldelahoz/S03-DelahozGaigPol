@@ -1,4 +1,11 @@
-package T02N02;
+package views;
+
+import controllers.MenuController;
+import models.BankDebit;
+import models.CreditCard;
+import models.Paypal;
+import models.ShoesStore;
+import utils.Entry;
 
 public class Main {
 

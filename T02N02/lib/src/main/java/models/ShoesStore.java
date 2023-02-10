@@ -1,4 +1,4 @@
-package T02N02;
+package models;
 
 public class ShoesStore {
 	

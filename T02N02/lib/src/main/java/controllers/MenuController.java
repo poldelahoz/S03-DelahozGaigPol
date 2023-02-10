@@ -1,4 +1,7 @@
-package T02N02;
+package controllers;
+
+import models.Menu;
+import views.MenuView;
 
 public class MenuController {
 	
