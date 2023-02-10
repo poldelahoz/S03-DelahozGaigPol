@@ -6,6 +6,7 @@ import exercisi1.models.Vehicle.TipusVehicle;
 
 public class Main {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Vehicle cotxe = new Vehicle(TipusVehicle.COTXE);
 		Vehicle bicicleta = new Vehicle(TipusVehicle.BICICLETA);

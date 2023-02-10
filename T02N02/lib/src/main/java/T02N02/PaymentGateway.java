@@ -1,5 +1,5 @@
 package T02N02;
 
-public class PaymentGateway {
-	
+public interface PaymentGateway {
+	void execute();
 }
